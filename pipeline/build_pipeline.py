@@ -6,7 +6,7 @@ from utils.custom_exception import CustomException
 
 load_dotenv()
 
-logger = get_logger()
+logger = get_logger(__name__)
 
 def main():
     try:
@@ -25,3 +25,6 @@ def main():
     except Exception as e:
         logger.error(f"Failed to create Vector {str(e)}")
         raise CustomException("Error during vector build", e)
+
+if __name__ == "__main__":
+    main()
