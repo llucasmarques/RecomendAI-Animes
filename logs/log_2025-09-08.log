@@ -90,3 +90,30 @@
 2025-09-08 16:59:22,649 - WARNING - Created a chunk of size 1172, which is longer than the specified 1000
 2025-09-08 16:59:23,502 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
 2025-09-08 17:01:53,516 - INFO - Vector Built
+2025-09-08 20:50:51,400 - INFO - Initializing Pipeline
+2025-09-08 20:51:18,116 - INFO - Use pytorch device_name: cpu
+2025-09-08 20:51:18,116 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-08 20:51:21,157 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-08 20:51:22,330 - INFO - Pipeline Initialized
+2025-09-08 20:51:43,736 - INFO - Query: I like animes with a strong main character
+2025-09-08 20:51:44,071 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-09-08 20:51:44,072 - ERROR - Failed to recommend Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-09-08 20:55:50,319 - INFO - Initializing Pipeline
+2025-09-08 20:55:55,789 - INFO - Use pytorch device_name: cpu
+2025-09-08 20:55:55,790 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-08 20:55:58,334 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-08 20:55:59,148 - INFO - Pipeline Initialized
+2025-09-08 20:56:10,139 - INFO - Query: I like animes with a strong main character
+2025-09-08 20:56:12,114 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-08 20:56:12,123 - ERROR - Failed to recommend 'results'
+2025-09-08 20:57:08,288 - INFO - Initializing Pipeline
+2025-09-08 20:57:13,476 - INFO - Use pytorch device_name: cpu
+2025-09-08 20:57:13,476 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-08 20:57:16,020 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-08 20:57:16,829 - INFO - Pipeline Initialized
+2025-09-08 20:57:25,781 - INFO - Query: I like animes with a strong main character
+2025-09-08 20:57:27,488 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-08 20:57:27,497 - INFO - Recommendation generated.
+2025-09-08 20:58:03,409 - INFO - Query: Recommend to me an anime with ninjas like naruto
+2025-09-08 20:58:05,550 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-08 20:58:05,550 - INFO - Recommendation generated.

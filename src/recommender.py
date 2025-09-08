@@ -1,4 +1,4 @@
-from langchain.chains import RetrivalQA
+from langchain.chains import RetrievalQA
 from langchain_groq import ChatGroq
 from src.prompt import anime_prompt
 
@@ -7,7 +7,7 @@ class AnimeRecommender:
         self.llm = ChatGroq(api_key=api_key, model=model_name, temperature=0)
         self.prompt = anime_prompt()
 
-        self.qa_chain = RetrivalQA.from_chain_type(
+        self.qa_chain = RetrievalQA.from_chain_type(
             llm = self.llm,
             chain_type = "stuff",
             retriever = retriever,
@@ -17,4 +17,4 @@ class AnimeRecommender:
 
     def get_recommendation(self, query:str):
         result = self.qa_chain({"query": query})
-        return result['results']
+        return result['result']
