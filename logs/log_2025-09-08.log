@@ -1,0 +1,92 @@
+2025-09-08 16:54:53,763 - INFO - Starting build the pipeline
+2025-09-08 16:54:53,763 - ERROR - Failed to create Vector read_csv() got an unexpected keyword argument 'error_bad_lines'. Did you mean 'on_bad_lines'?
+2025-09-08 16:56:16,582 - INFO - Starting build the pipeline
+2025-09-08 16:56:16,695 - ERROR - Failed to create Vector "None of [Index(['combined_info'], dtype='object')] are in the [columns]"
+2025-09-08 16:57:42,795 - INFO - Starting build the pipeline
+2025-09-08 16:57:42,901 - ERROR - Failed to create Vector 'combined_info'
+2025-09-08 16:57:47,859 - INFO - Starting build the pipeline
+2025-09-08 16:57:47,966 - ERROR - Failed to create Vector 'combined_info'
+2025-09-08 16:58:49,014 - INFO - Starting build the pipeline
+2025-09-08 16:58:49,228 - INFO - Data loaded and processed
+2025-09-08 16:59:14,112 - INFO - Use pytorch device_name: cpu
+2025-09-08 16:59:14,112 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-08 16:59:17,182 - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-09-08 16:59:22,408 - WARNING - Created a chunk of size 1012, which is longer than the specified 1000
+2025-09-08 16:59:22,412 - WARNING - Created a chunk of size 1001, which is longer than the specified 1000
+2025-09-08 16:59:22,413 - WARNING - Created a chunk of size 1025, which is longer than the specified 1000
+2025-09-08 16:59:22,415 - WARNING - Created a chunk of size 1045, which is longer than the specified 1000
+2025-09-08 16:59:22,415 - WARNING - Created a chunk of size 1123, which is longer than the specified 1000
+2025-09-08 16:59:22,417 - WARNING - Created a chunk of size 1030, which is longer than the specified 1000
+2025-09-08 16:59:22,419 - WARNING - Created a chunk of size 1124, which is longer than the specified 1000
+2025-09-08 16:59:22,419 - WARNING - Created a chunk of size 1027, which is longer than the specified 1000
+2025-09-08 16:59:22,420 - WARNING - Created a chunk of size 1777, which is longer than the specified 1000
+2025-09-08 16:59:22,420 - WARNING - Created a chunk of size 1309, which is longer than the specified 1000
+2025-09-08 16:59:22,423 - WARNING - Created a chunk of size 1042, which is longer than the specified 1000
+2025-09-08 16:59:22,424 - WARNING - Created a chunk of size 1101, which is longer than the specified 1000
+2025-09-08 16:59:22,425 - WARNING - Created a chunk of size 1008, which is longer than the specified 1000
+2025-09-08 16:59:22,426 - WARNING - Created a chunk of size 1335, which is longer than the specified 1000
+2025-09-08 16:59:22,426 - WARNING - Created a chunk of size 1042, which is longer than the specified 1000
+2025-09-08 16:59:22,426 - WARNING - Created a chunk of size 1159, which is longer than the specified 1000
+2025-09-08 16:59:22,427 - WARNING - Created a chunk of size 1059, which is longer than the specified 1000
+2025-09-08 16:59:22,428 - WARNING - Created a chunk of size 1134, which is longer than the specified 1000
+2025-09-08 16:59:22,428 - WARNING - Created a chunk of size 1302, which is longer than the specified 1000
+2025-09-08 16:59:22,428 - WARNING - Created a chunk of size 1003, which is longer than the specified 1000
+2025-09-08 16:59:22,430 - WARNING - Created a chunk of size 1526, which is longer than the specified 1000
+2025-09-08 16:59:22,430 - WARNING - Created a chunk of size 1060, which is longer than the specified 1000
+2025-09-08 16:59:22,432 - WARNING - Created a chunk of size 1043, which is longer than the specified 1000
+2025-09-08 16:59:22,432 - WARNING - Created a chunk of size 1052, which is longer than the specified 1000
+2025-09-08 16:59:22,434 - WARNING - Created a chunk of size 1032, which is longer than the specified 1000
+2025-09-08 16:59:22,437 - WARNING - Created a chunk of size 1041, which is longer than the specified 1000
+2025-09-08 16:59:22,437 - WARNING - Created a chunk of size 1310, which is longer than the specified 1000
+2025-09-08 16:59:22,441 - WARNING - Created a chunk of size 1061, which is longer than the specified 1000
+2025-09-08 16:59:22,442 - WARNING - Created a chunk of size 1350, which is longer than the specified 1000
+2025-09-08 16:59:22,442 - WARNING - Created a chunk of size 1016, which is longer than the specified 1000
+2025-09-08 16:59:22,443 - WARNING - Created a chunk of size 1179, which is longer than the specified 1000
+2025-09-08 16:59:22,444 - WARNING - Created a chunk of size 1035, which is longer than the specified 1000
+2025-09-08 16:59:22,445 - WARNING - Created a chunk of size 1064, which is longer than the specified 1000
+2025-09-08 16:59:22,446 - WARNING - Created a chunk of size 1125, which is longer than the specified 1000
+2025-09-08 16:59:22,447 - WARNING - Created a chunk of size 1039, which is longer than the specified 1000
+2025-09-08 16:59:22,447 - WARNING - Created a chunk of size 1021, which is longer than the specified 1000
+2025-09-08 16:59:22,451 - WARNING - Created a chunk of size 1130, which is longer than the specified 1000
+2025-09-08 16:59:22,455 - WARNING - Created a chunk of size 1051, which is longer than the specified 1000
+2025-09-08 16:59:22,456 - WARNING - Created a chunk of size 1025, which is longer than the specified 1000
+2025-09-08 16:59:22,457 - WARNING - Created a chunk of size 1006, which is longer than the specified 1000
+2025-09-08 16:59:22,457 - WARNING - Created a chunk of size 1007, which is longer than the specified 1000
+2025-09-08 16:59:22,461 - WARNING - Created a chunk of size 1233, which is longer than the specified 1000
+2025-09-08 16:59:22,462 - WARNING - Created a chunk of size 1055, which is longer than the specified 1000
+2025-09-08 16:59:22,462 - WARNING - Created a chunk of size 1776, which is longer than the specified 1000
+2025-09-08 16:59:22,463 - WARNING - Created a chunk of size 1445, which is longer than the specified 1000
+2025-09-08 16:59:22,465 - WARNING - Created a chunk of size 1017, which is longer than the specified 1000
+2025-09-08 16:59:22,466 - WARNING - Created a chunk of size 1040, which is longer than the specified 1000
+2025-09-08 16:59:22,466 - WARNING - Created a chunk of size 1031, which is longer than the specified 1000
+2025-09-08 16:59:22,468 - WARNING - Created a chunk of size 1237, which is longer than the specified 1000
+2025-09-08 16:59:22,468 - WARNING - Created a chunk of size 1212, which is longer than the specified 1000
+2025-09-08 16:59:22,469 - WARNING - Created a chunk of size 1014, which is longer than the specified 1000
+2025-09-08 16:59:22,469 - WARNING - Created a chunk of size 1158, which is longer than the specified 1000
+2025-09-08 16:59:22,469 - WARNING - Created a chunk of size 1052, which is longer than the specified 1000
+2025-09-08 16:59:22,470 - WARNING - Created a chunk of size 1145, which is longer than the specified 1000
+2025-09-08 16:59:22,472 - WARNING - Created a chunk of size 1504, which is longer than the specified 1000
+2025-09-08 16:59:22,474 - WARNING - Created a chunk of size 1275, which is longer than the specified 1000
+2025-09-08 16:59:22,474 - WARNING - Created a chunk of size 1204, which is longer than the specified 1000
+2025-09-08 16:59:22,475 - WARNING - Created a chunk of size 1068, which is longer than the specified 1000
+2025-09-08 16:59:22,478 - WARNING - Created a chunk of size 1028, which is longer than the specified 1000
+2025-09-08 16:59:22,480 - WARNING - Created a chunk of size 1030, which is longer than the specified 1000
+2025-09-08 16:59:22,482 - WARNING - Created a chunk of size 1068, which is longer than the specified 1000
+2025-09-08 16:59:22,483 - WARNING - Created a chunk of size 1110, which is longer than the specified 1000
+2025-09-08 16:59:22,490 - WARNING - Created a chunk of size 1056, which is longer than the specified 1000
+2025-09-08 16:59:22,492 - WARNING - Created a chunk of size 1042, which is longer than the specified 1000
+2025-09-08 16:59:22,621 - WARNING - Created a chunk of size 1024, which is longer than the specified 1000
+2025-09-08 16:59:22,623 - WARNING - Created a chunk of size 1256, which is longer than the specified 1000
+2025-09-08 16:59:22,626 - WARNING - Created a chunk of size 1305, which is longer than the specified 1000
+2025-09-08 16:59:22,626 - WARNING - Created a chunk of size 1396, which is longer than the specified 1000
+2025-09-08 16:59:22,629 - WARNING - Created a chunk of size 1028, which is longer than the specified 1000
+2025-09-08 16:59:22,631 - WARNING - Created a chunk of size 1025, which is longer than the specified 1000
+2025-09-08 16:59:22,633 - WARNING - Created a chunk of size 1064, which is longer than the specified 1000
+2025-09-08 16:59:22,633 - WARNING - Created a chunk of size 1115, which is longer than the specified 1000
+2025-09-08 16:59:22,633 - WARNING - Created a chunk of size 1044, which is longer than the specified 1000
+2025-09-08 16:59:22,637 - WARNING - Created a chunk of size 1116, which is longer than the specified 1000
+2025-09-08 16:59:22,638 - WARNING - Created a chunk of size 1089, which is longer than the specified 1000
+2025-09-08 16:59:22,641 - WARNING - Created a chunk of size 1019, which is longer than the specified 1000
+2025-09-08 16:59:22,649 - WARNING - Created a chunk of size 1172, which is longer than the specified 1000
+2025-09-08 16:59:23,502 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-09-08 17:01:53,516 - INFO - Vector Built
